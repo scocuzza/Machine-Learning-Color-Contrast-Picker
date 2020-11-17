@@ -1,16 +1,18 @@
 const net = new brain.NeuralNetwork()
-
 const data = [
   {
+    //RGB value is black
+    //Then text should be white (1)
     input: {r: 0, g: 0, b: 0 },
     output: [1]
   },
   {
+    //RGB value is white
+    //Then text should be black (0)
     input: {r: 1, g: 1, b: 1 },
     output: [0]
   },
 ]
-
 net.train(data)
 
 //background color div
