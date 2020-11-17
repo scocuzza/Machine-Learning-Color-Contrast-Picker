@@ -1,5 +1,9 @@
 # Machine Learning & Neural Networks with Javascript - Brain.js
 ## Project Instructions
+### Goal
+- Have the Neural Network predict appropriate text on certain background colors
+- Have the user be able to train the Neural Network by selecting either white or black text based on the background color
+- Gather trained data to make the Neural Network smarter
 ### Step 1
 - include brain.js CDN in index.html 
 ```
